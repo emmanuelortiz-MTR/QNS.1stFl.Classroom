@@ -1,0 +1,165 @@
+{
+  "options": [
+    {
+      "id": "start",
+      "title": {
+        "en": "Dual Screen Conference Room Guide",
+        "es": "Guía para Sala de Conferencias con Pantalla Dual"
+      },
+      "type": "choice",
+      "choices": [
+        {
+          "id": "left",
+          "title": {
+            "en": "🖥️ Use Left Screen Only",
+            "es": "🖥️ Usar Solo la Pantalla Izquierda"
+          },
+          "description": {
+            "en": "I want to use only the left screen",
+            "es": "Quiero usar solo la pantalla izquierda"
+          }
+        },
+        {
+          "id": "right",
+          "title": {
+            "en": "🖥️ Use Right Screen Only",
+            "es": "🖥️ Usar Solo la Pantalla Derecha"
+          },
+          "description": {
+            "en": "I want to use only the right screen",
+            "es": "Quiero usar solo la pantalla derecha"
+          }
+        },
+        {
+          "id": "both",
+          "title": {
+            "en": "🖥️🖥️ Use Both Screens",
+            "es": "🖥️🖥️ Usar Ambas Pantallas"
+          },
+          "description": {
+            "en": "I want to use both screens simultaneously",
+            "es": "Quiero usar ambas pantallas simultáneamente"
+          }
+        }
+      ],
+      "steps": {
+        "left": [
+          {
+            "instruction": {
+              "en": "Locate the Left Screen Console. It should look something like this:",
+              "es": "Localice la consola de la pantalla izquierda. Debería verse algo así:"
+            },
+            "image": "left.console.jpg",
+            "alt": {
+              "en": "Left Screen Console",
+              "es": "Consola de la pantalla izquierda"
+            }
+          },
+          {
+            "instruction": {
+              "en": "Turn on the left screen using the power button",
+              "es": "Encienda la pantalla izquierda usando el botón de encendido"
+            },
+            "image": "left.tv.on.jpg",
+            "alt": {
+              "en": "Left screen turned on",
+              "es": "Pantalla izquierda encendida"
+            }
+          },
+          {
+            "instruction": {
+              "en": "Click on 'Other User' on the bottom left and sign into your profile!",
+              "es": "¡Haga clic en 'Otro usuario' en la parte inferior izquierda e inicie sesión en su perfil!"
+            },
+            "image": "left.finish.jpg",
+            "alt": {
+              "en": "Log in screen on the left screen",
+              "es": "Pantalla de inicio de sesión en la pantalla izquierda"
+            }
+          }
+        ],
+        "right": [
+          {
+            "instruction": {
+              "en": "Locate the Right Screen Console. It should look something like this:",
+              "es": "Localice la consola de la pantalla derecha. Debería verse algo así:"
+            },
+            "image": "right.console.jpg",
+            "alt": {
+              "en": "Right Screen Console",
+              "es": "Consola de la pantalla derecha"
+            }
+          },
+          {
+            "instruction": {
+              "en": "Turn on the right screen using the power button",
+              "es": "Encienda la pantalla derecha usando el botón de encendido"
+            },
+            "image": "right.tv.on.jpg",
+            "alt": {
+              "en": "Right screen turned on",
+              "es": "Pantalla derecha encendida"
+            }
+          },
+          {
+            "instruction": {
+              "en": "Click on 'Other User' on the bottom left and sign into your profile!",
+              "es": "¡Haga clic en 'Otro usuario' en la parte inferior izquierda e inicie sesión en su perfil!"
+            },
+            "image": "right.finish.jpg",
+            "alt": {
+              "en": "Log in screen on the right screen",
+              "es": "Pantalla de inicio de sesión en la pantalla derecha"
+            }
+          }
+        ],
+        "both": [
+          {
+            "instruction": {
+              "en": "Locate the Main Console. It should look something like this:",
+              "es": "Localice la consola principal. Debería verse algo así:"
+            },
+            "image": "both.console.jpg",
+            "alt": {
+              "en": "Main Console for dual screens",
+              "es": "Consola principal para pantallas duales"
+            }
+          },
+          {
+            "instruction": {
+              "en": "Turn on both screens using the power buttons",
+              "es": "Encienda ambas pantallas usando los botones de encendido"
+            },
+            "image": "both.tv.on.jpg",
+            "alt": {
+              "en": "Both screens turned on",
+              "es": "Ambas pantallas encendidas"
+            }
+          },
+          {
+            "instruction": {
+              "en": "Configure the display settings to extend the desktop across both screens",
+              "es": "Configure los ajustes de pantalla para extender el escritorio en ambas pantallas"
+            },
+            "image": "both.display.settings.jpg",
+            "alt": {
+              "en": "Display settings for dual screens",
+              "es": "Configuración de pantalla para pantallas duales"
+            }
+          },
+          {
+            "instruction": {
+              "en": "Click on 'Other User' on the bottom left and sign into your profile!",
+              "es": "¡Haga clic en 'Otro usuario' en la parte inferior izquierda e inicie sesión en su perfil!"
+            },
+            "image": "both.finish.jpg",
+            "alt": {
+              "en": "Log in screen on dual screens",
+              "es": "Pantalla de inicio de sesión en pantallas duales"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
