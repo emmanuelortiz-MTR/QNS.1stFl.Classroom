@@ -49,7 +49,7 @@
               "en": "Locate the Left Screen Console. It should look something like this:",
               "es": "Localice la consola de la pantalla izquierda. Debería verse algo así:"
             },
-            "image": "left.console.jpg",
+            "image": "1stFL.ScreenLeft.JPG",
             "alt": {
               "en": "Left Screen Console",
               "es": "Consola de la pantalla izquierda"
@@ -57,26 +57,179 @@
           },
           {
             "instruction": {
-              "en": "Turn on the left screen using the power button",
-              "es": "Encienda la pantalla izquierda usando el botón de encendido"
+              "en": "Let's start from scratch, try to reset the console to start from the home screen",
+              "es": "Comencemos desde cero, intente restablecer la consola para comenzar desde la pantalla de inicio"
             },
-            "image": "left.tv.on.jpg",
+            "video_url": "https://drive.google.com/file/d/18RtTiYZdAt7jDLCKP_F9RUzCmhrbIeQU/view?usp=sharing",
             "alt": {
-              "en": "Left screen turned on",
-              "es": "Pantalla izquierda encendida"
+              "en": "Video showing how to exit out of device mode and return to HOME",
+              "es": "Video que muestra cómo salir del modo dispositivo y regresar a HOME"
+          },
+          {
+            "instruction": {
+              "en": "Next, let's 'seperate' the room. On the small audio panel, make sure that the Room Combine button likes like this. If it doesn't, give it a click",
+              "es": "A continuación, vamos a 'separar' la sala. En el panel de audio pequeño, asegúrese de que el botón de Combinación de Sala (Room Combine) se vea así. Si no es así, hágale clic"
+            },
+            "image": "1stFL.ScreenLeft.ScreenSep.JPG",
+            "alt": {
+              "en": "Shows the button for Rooms Combine on the Main Console",
+              "es": "Muestra el botón para el Rooms Combine en la Consola Principal"
+          }
+          },
+          {
+            "instruction": {
+              "en": "Select the input 'Poly Classroom 1'",
+              "es": "Seleccione la entrada 'Poly Classroom 1'"
+            },
+            "image": "1stFL.ScreenLeft.PolyInput.JPG",
+            "alt": {
+              "en": "Poly 1 input solected turned on",
+              "es": "Entrada Poly 1 seleccionada y encendida"
             }
           },
           {
             "instruction": {
-              "en": "Click on 'Other User' on the bottom left and sign into your profile!",
+              "en": "Next, let's go to the Main Console. Click the 'Device Mode' button",
+              "es": 
+            },
+            "image": "1stFL.DeviceMode.JPG",
+            "alt": {
+              "en": "Activate Device mode",
+              "es": 
+            }
+          },
+          {
+            "instruction": {
+              "en": "Next, let's go to the Main Console. Click the 'Device Mode' button",
+              "es": 
+            },
+            "image": "1stFL.DeviceMode.JPG",
+            "alt": {
+              "en": "Activate Device mode",
+              "es": 
+            }
+          },
+          {
+            "instruction": {
+              "en": "Next, let's go to the Main Console. Click the 'Device Mode' button",
               "es": "¡Haga clic en 'Otro usuario' en la parte inferior izquierda e inicie sesión en su perfil!"
             },
-            "image": "left.finish.jpg",
+            "image": "1stFL.DeviceMode.JPG",
             "alt": {
-              "en": "Log in screen on the left screen",
-              "es": "Pantalla de inicio de sesión en la pantalla izquierda"
+              "en": "Activate Device mode",
+              "es": 
             }
-          }
+          },
+          {
+            "instruction": {
+              "en": "Once 'Device Mode' is active, the screen should look like this:",
+              "es": 
+            },
+            "image": "1stFL.ScreenLeft.PanelON.JPG",
+            "alt": {
+              "en": "Shows end result for activating device mode",
+              "es": 
+            }
+          },
+          {
+            "instruction": {
+              "en": "Now let's turn our attention to the left screen. If it is off, you can turn it on using the power button:",
+              "es": 
+            },
+            "image": "1stFL.ScreenLeft.OnButton.JPG",
+            "alt": {
+              "en": "Shows where to find the TV power button",
+              "es": 
+            }
+          },
+          {
+            "instruction": {
+              "en": "Let's select the correct TV input. Press the Home button on the TV",
+              "es":
+            },
+            "image": "1stFL.ScreenLeft.InputSelect.JPG",
+            "alt": {
+              "en": "Shows where to find the TV home button",
+              "es": 
+            }
+          },
+          {
+            "instruction": {
+              "en": "Press the PC option on the screen",
+              "es":
+            },
+            "image": "1stFL.ScreenLeft.InputPC.JPG",
+            "alt": {
+              "en": "Shows where to press the PC option on the TV screen",
+              "es": 
+            }
+          },
+          {
+            "instruction": {
+              "en": "Select the 'HDMI 1' option on the screen",
+              "es":
+            },
+            "image": "1stFL.ScreenLeft.InputHDMI.JPG",
+            "alt": {
+              "en": "Shows where to press the HDMI 1 option on the TV screen",
+              "es": 
+            }
+          },
+          {
+            "instruction": {
+              "en": "This should then bring up the main computer screen. If it is small, you can maximize the window by pressing 'Maximaize' here:",
+              "es":
+            },
+            "image": "1stFL.ScreenMaximize.JPG",
+            "alt": {
+              "en": "Shows where to maximize the main Windows screen",
+              "es": 
+            }
+          },
+          {
+            "instruction": {
+              "en": "Now, locate the left side keyboard. It is labeled 'QNS-CLASSROOM1' and looks like this:",
+              "es":
+            },
+            "image": "1stFL.Keyboard1.JPG",
+            "alt": {
+              "en": "Displays an image of keyboard labeled QNS-CLASSROOM1",
+              "es": 
+            }
+          },
+          {
+            "instruction": {
+              "en": "Make sure the keyboard is turned on. The switch on top of the keyboard should be set to the green color",
+              "es":
+            },
+            "image": "1stFL.KeyboardONSwitch.JPG",
+            "alt": {
+              "en": "Displays an ON setting for the power switch on the keyboard labeled QNS-CLASSROOM2",
+              "es": 
+            }
+          },
+          {
+            "instruction": {
+              "en": "This should then bring up the main computer screen. If it is small, you can maximize the window by pressing 'Maximaize' here:",
+              "es":
+            },
+            "image": "1stFL.ScreenMaximize.JPG",
+            "alt": {
+              "en": "Shows where to maximize the main Windows screen",
+              "es": 
+            }
+          },
+          {
+            "instruction": {
+              "en": "Try moving the mouse pad or click on keys on the keyboard. Now click on 'Other User' on the bottom left and sign into your profile!",
+              "es": "Intente mover el mouse o presione teclas en el teclado. ¡Ahora haga clic en 'Otro usuario' en la parte inferior izquierda e inicie sesión en su perfil!"
+            },
+            "image": "1stFL.ScreenLeft.Login.JPG",
+            "alt": {
+              "en": "Pic displaying the 'Other Users' log in screen on the Main TV",
+              "es": "Imagen que muestra la pantalla de inicio de sesión de 'Otros usuarios' en la TV principal"
+            }
+          },
         ],
         "right": [
           {
