@@ -49,7 +49,7 @@
               "en": "Locate the Left Screen Console. It should look something like this:",
               "es": "Localice la consola de la pantalla izquierda. Debería verse algo así:"
             },
-            "image": "1stFL.ScreenLeft.JPG",
+            "image": "1stFL.ScreenLeft.jpg",
             "alt": {
               "en": "Left Screen Console",
               "es": "Consola de la pantalla izquierda"
@@ -71,7 +71,7 @@
               "en": "Next, let's 'separate' the room. On the small audio panel, make sure that the Room Combine button looks like this. If it doesn't, give it a click",
               "es": "A continuación, vamos a 'separar' la sala. En el panel de audio pequeño, asegúrese de que el botón de Combinación de Sala (Room Combine) se vea así. Si no es así, hágale clic"
             },
-            "image": "1stFL.ScreenLeft.ScreenSep.JPG",
+            "image": "1stFL.ScreenLeft.ScreenSep.jpg",
             "alt": {
               "en": "Shows the button for Room Combine on the Main Console",
               "es": "Muestra el botón para Combinación de Sala en la Consola Principal"
@@ -82,7 +82,7 @@
               "en": "Select the input 'Poly Classroom 1'",
               "es": "Seleccione la entrada 'Poly Classroom 1'"
             },
-            "image": "1stFL.ScreenLeft.PolyInput.JPG",
+            "image": "1stFL.ScreenLeft.Polyinput.jpg",
             "alt": {
               "en": "Poly 1 input selected and turned on",
               "es": "Entrada Poly 1 seleccionada y encendida"
@@ -93,7 +93,7 @@
               "en": "Next, let's go to the Main Console. Click the 'Device Mode' button",
               "es": "A continuación, vayamos a la Consola Principal. Haga clic en el botón 'Modo Dispositivo'"
             },
-            "image": "1stFL.DeviceMode.JPG",
+            "image": "1stFL.DeviceMode.jpg",
             "alt": {
               "en": "Activate Device Mode",
               "es": "Activar el Modo Dispositivo"
@@ -104,7 +104,7 @@
               "en": "Once 'Device Mode' is active, the screen should look like this:",
               "es": "Una vez que el 'Modo Dispositivo' esté activo, la pantalla debería verse así:"
             },
-            "image": "1stFL.ScreenLeft.PanelON.JPG",
+            "image": "1stFL.ScreenLeft.PanelON.jpg",
             "alt": {
               "en": "Shows the end result of activating Device Mode",
               "es": "Muestra el resultado final de activar el Modo Dispositivo"
@@ -115,7 +115,7 @@
               "en": "Now let's turn our attention to the left screen. If it is off, you can turn it on using the power button:",
               "es": "Ahora dirijamos nuestra atención a la pantalla izquierda. Si está apagada, puede encenderla usando el botón de encendido:"
             },
-            "image": "1stFL.ScreenLeft.OnButton.JPG",
+            "image": "1stFL.ScreenLeft.OnButton.jpg",
             "alt": {
               "en": "Shows where to find the TV power button",
               "es": "Muestra dónde encontrar el botón de encendido de la TV"
@@ -126,7 +126,7 @@
               "en": "Let's select the correct TV input. Press the Home button on the TV",
               "es": "Seleccionemos la entrada correcta de la TV. Presione el botón de Inicio en la TV"
             },
-            "image": "1stFL.ScreenLeft.InputSelect.JPG",
+            "image": "1stFL.ScreenLeft.InputSelect.jpg",
             "alt": {
               "en": "Shows where to find the TV Home button",
               "es": "Muestra dónde encontrar el botón de Inicio de la TV"
@@ -137,7 +137,7 @@
               "en": "Press the PC option on the screen",
               "es": "Presione la opción PC en la pantalla"
             },
-            "image": "1stFL.ScreenLeft.InputPC.JPG",
+            "image": "1stFL.ScreenLeft.InputPC.jpg",
             "alt": {
               "en": "Shows where to press the PC option on the TV screen",
               "es": "Muestra dónde presionar la opción PC en la pantalla de la TV"
@@ -148,7 +148,7 @@
               "en": "Select the 'HDMI 1' option on the screen",
               "es": "Seleccione la opción 'HDMI 1' en la pantalla"
             },
-            "image": "1stFL.ScreenLeft.InputHDMI.JPG",
+            "image": "1stFL.ScreenLeft.InputHDMI.jpg",
             "alt": {
               "en": "Shows where to press the HDMI 1 option on the TV screen",
               "es": "Muestra dónde presionar la opción HDMI 1 en la pantalla de la TV"
@@ -159,7 +159,7 @@
               "en": "This should then bring up the main computer screen. If it is small, you can maximize the window by pressing 'Maximize' here:",
               "es": "Esto debería mostrar la pantalla principal de la computadora. Si es pequeña, puede maximizar la ventana presionando 'Maximizar' aquí:"
             },
-            "image": "1stFL.ScreenMaximize.JPG",
+            "image": "1stFL.ScreenMaximize.jpg",
             "alt": {
               "en": "Shows where to maximize the main Windows screen",
               "es": "Muestra dónde maximizar la pantalla principal de Windows"
@@ -170,7 +170,7 @@
               "en": "Now, locate the left side keyboard. It is labeled 'QNS-CLASSROOM1' and looks like this:",
               "es": "Ahora, localice el teclado del lado izquierdo. Está etiquetado como 'QNS-CLASSROOM1' y se ve así:"
             },
-            "image": "1stFL.Keyboard1.JPG",
+            "image": "1stFL.Keyboard1.jpg",
             "alt": {
               "en": "Displays an image of keyboard labeled QNS-CLASSROOM1",
               "es": "Muestra una imagen del teclado etiquetado QNS-CLASSROOM1"
@@ -181,7 +181,7 @@
               "en": "Make sure the keyboard is turned on. The switch on top of the keyboard should be set to the green color",
               "es": "Asegúrese de que el teclado esté encendido. El interruptor en la parte superior del teclado debe estar en verde"
             },
-            "image": "1stFL.KeyboardONSwitch.JPG",
+            "image": "1stFL.KeyboardONSwitch.jpg",
             "alt": {
               "en": "Displays an ON setting for the power switch on the keyboard labeled QNS-CLASSROOM1",
               "es": "Muestra la configuración de ENCENDIDO para el interruptor de encendido en el teclado etiquetado QNS-CLASSROOM1"
@@ -192,7 +192,7 @@
               "en": "Try moving the mouse pad or click on keys on the keyboard. Now click on 'Other User' on the bottom left and sign into your profile!",
               "es": "Intente mover el mouse o presione teclas en el teclado. ¡Ahora haga clic en 'Otro usuario' en la parte inferior izquierda e inicie sesión en su perfil!"
             },
-            "image": "1stFL.ScreenLeft.Login.JPG",
+            "image": "1stFL.ScreenLeft.Login.jpg",
             "alt": {
               "en": "Pic displaying the 'Other Users' log in screen on the Main TV",
               "es": "Imagen que muestra la pantalla de inicio de sesión de 'Otros usuarios' en la TV principal"
@@ -205,7 +205,7 @@
               "en": "Locate the Right Screen Console. It should look something like this:",
               "es": "Localice la consola de la pantalla derecha. Debería verse algo así:"
             },
-            "image": "1stFL.ScreenRight.JPG",
+            "image": "1stFL.ScreenRight.jpg",
             "alt": {
               "en": "Right Screen Console",
               "es": "Consola de la pantalla derecha"
@@ -227,7 +227,7 @@
               "en": "Next, let's 'separate' the room. On the small audio panel, make sure that the Room Combine button looks like this. If it doesn't, give it a click",
               "es": "A continuación, vamos a 'separar' la sala. En el panel de audio pequeño, asegúrese de que el botón de Combinación de Sala (Room Combine) se vea así. Si no es así, hágale clic"
             },
-            "image": "1stFL.ScreenRight.ScreenSep.JPG",
+            "image": "1stFL.ScreenRight.ScreenSep.jpg",
             "alt": {
               "en": "Shows the button for Room Combine on the Main Console",
               "es": "Muestra el botón para Combinación de Sala en la Consola Principal"
@@ -238,7 +238,7 @@
               "en": "Select the input 'Poly Classroom 2'",
               "es": "Seleccione la entrada 'Poly Classroom 2'"
             },
-            "image": "1stFL.ScreenRight.PolyInput.JPG",
+            "image": "1stFL.ScreenRight.PolyInput.jpg",
             "alt": {
               "en": "Poly 2 input selected and turned on",
               "es": "Entrada Poly 2 seleccionada y encendida"
@@ -249,7 +249,7 @@
               "en": "Next, let's go to the Main Console. Click the 'Device Mode' button",
               "es": "A continuación, vayamos a la Consola Principal. Haga clic en el botón 'Modo Dispositivo'"
             },
-            "image": "1stFL.DeviceMode.JPG",
+            "image": "1stFL.DeviceMode.jpg",
             "alt": {
               "en": "Activate Device Mode",
               "es": "Activar el Modo Dispositivo"
@@ -260,7 +260,7 @@
               "en": "Once 'Device Mode' is active, the screen should look like this:",
               "es": "Una vez que el 'Modo Dispositivo' esté activo, la pantalla debería verse así:"
             },
-            "image": "1stFL.ScreenLeft.PanelON.JPG",
+            "image": "1stFL.ScreenLeft.PanelON.jpg",
             "alt": {
               "en": "Shows the end result of activating Device Mode",
               "es": "Muestra el resultado final de activar el Modo Dispositivo"
@@ -271,7 +271,7 @@
               "en": "Now let's turn our attention to the left screen. If it is off, you can turn it on using the power button:",
               "es": "Ahora dirijamos nuestra atención a la pantalla izquierda. Si está apagada, puede encenderla usando el botón de encendido:"
             },
-            "image": "1stFL.ScreenRight.Onbutton.JPG",
+            "image": "1stFL.ScreenRight.Onbutton.jpg",
             "alt": {
               "en": "Shows where to find the TV power button",
               "es": "Muestra dónde encontrar el botón de encendido de la TV"
@@ -282,7 +282,7 @@
               "en": "Let's select the correct TV input. Press the Home button on the TV",
               "es": "Seleccionemos la entrada correcta de la TV. Presione el botón de Inicio en la TV"
             },
-            "image": "1stFL.ScreenRight.InputJPG",
+            "image": "1stFL.ScreenRight.Input.jpg",
             "alt": {
               "en": "Shows where to find the TV Home button",
               "es": "Muestra dónde encontrar el botón de Inicio de la TV"
@@ -293,7 +293,7 @@
               "en": "Press the PC option on the screen",
               "es": "Presione la opción PC en la pantalla"
             },
-            "image": "1stFL.ScreenRight.PC.JPG",
+            "image": "1stFL.ScreenRight.PC.jpg",
             "alt": {
               "en": "Shows where to press the PC option on the TV screen",
               "es": "Muestra dónde presionar la opción PC en la pantalla de la TV"
@@ -304,7 +304,7 @@
               "en": "Select the 'HDMI 1' option on the screen",
               "es": "Seleccione la opción 'HDMI 1' en la pantalla"
             },
-            "image": "1stFL.ScreenRight.HDMI.JPG",
+            "image": "1stFL.ScreenRight.HDMI.jpg",
             "alt": {
               "en": "Shows where to press the HDMI 1 option on the TV screen",
               "es": "Muestra dónde presionar la opción HDMI 1 en la pantalla de la TV"
@@ -315,7 +315,7 @@
               "en": "This should then bring up the main computer screen. If it is small, you can maximize the window by pressing 'Maximize' here:",
               "es": "Esto debería mostrar la pantalla principal de la computadora. Si es pequeña, puede maximizar la ventana presionando 'Maximizar' aquí:"
             },
-            "image": "1stFL.ScreenMaximize.JPG",
+            "image": "1stFL.ScreenMaximize.jpg",
             "alt": {
               "en": "Shows where to maximize the main Windows screen",
               "es": "Muestra dónde maximizar la pantalla principal de Windows"
@@ -326,7 +326,7 @@
               "en": "Now, locate the right side keyboard. It is labeled 'QNS-CLASSROOM2' and looks like this:",
               "es": "Ahora, localice el teclado del lado derecho. Está etiquetado como 'QNS-CLASSROOM2' y se ve así:"
             },
-            "image": "1stFL.Keyboard2.JPG",
+            "image": "1stFL.Keyboard2.jpg",
             "alt": {
               "en": "Displays an image of keyboard labeled QNS-CLASSROOM2",
               "es": "Muestra una imagen del teclado etiquetado QNS-CLASSROOM2"
@@ -337,7 +337,7 @@
               "en": "Make sure the keyboard is turned on. The switch on top of the keyboard should be set to the green color",
               "es": "Asegúrese de que el teclado esté encendido. El interruptor en la parte superior del teclado debe estar en verde"
             },
-            "image": "1stFL.KeyboardONSwitch.JPG",
+            "image": "1stFL.KeyboardONSwitch.jpg",
             "alt": {
               "en": "Displays an ON setting for the power switch on the keyboard labeled QNS-CLASSROOM2",
               "es": "Muestra la configuración de ENCENDIDO para el interruptor de encendido en el teclado etiquetado QNS-CLASSROOM2"
@@ -348,7 +348,7 @@
               "en": "Try moving the mouse pad or click on keys on the keyboard. Now click on 'Other User' on the bottom left and sign into your profile!",
               "es": "Intente mover el mouse o presione teclas en el teclado. ¡Ahora haga clic en 'Otro usuario' en la parte inferior izquierda e inicie sesión en su perfil!"
             },
-            "image": "1stFL.ScreenRight.Login.JPG",
+            "image": "1stFL.ScreenRight.Login.jpg",
             "alt": {
               "en": "Pic displaying the 'Other Users' log in screen on the Main TV",
               "es": "Imagen que muestra la pantalla de inicio de sesión de 'Otros usuarios' en la TV principal"
@@ -361,7 +361,7 @@
               "en": "To use both screens together, let's focus our attention on the left side TV",
               "es": "Para usar ambas pantallas juntas, enfoquémonos en la TV del lado izquierdo"
             },
-            "image": "both.console.jpg",
+            "image": "1stFL.ScreenLeft.jpg",
             "alt": {
               "en": "Image showing the left side TV setup",
               "es": "Imagen que muestra la configuración de la TV del lado izquierdo"
@@ -383,7 +383,7 @@
               "en": "Next, let's 'combine' the rooms. On the small audio panel, make sure that the Room Combine button looks like this. If it doesn't, give it a click",
               "es": "A continuación, vamos a 'combinar' las salas. En el panel de audio pequeño, asegúrese de que el botón de Combinación de Sala (Room Combine) se vea así. Si no es así, hágale clic"
             },
-            "image": "1stFL.ScreenRight.Combined.JPG",
+            "image": "1stFL.ScreenRight.Combined.jpg",
             "alt": {
               "en": "Shows the button for Room Combine on the Main Console",
               "es": "Muestra el botón para Combinación de Sala en la Consola Principal"
@@ -394,7 +394,7 @@
               "en": "Select the input 'Poly Classroom 1'",
               "es": "Seleccione la entrada 'Poly Classroom 1'"
             },
-            "image": "1stFL.ScreenRight.Combined.JPG",
+            "image": "1stFL.ScreenLeft.Polyinput.jpg",
             "alt": {
               "en": "Poly 1 input selected and turned on",
               "es": "Entrada Poly 1 seleccionada y encendida"
@@ -405,7 +405,7 @@
               "en": "Next, let's go to the Main Console. Click the 'Device Mode' button",
               "es": "A continuación, vayamos a la Consola Principal. Haga clic en el botón 'Modo Dispositivo'"
             },
-            "image": "1stFL.DeviceMode.JPG",
+            "image": "1stFL.DeviceMode.jpg",
             "alt": {
               "en": "Activate Device Mode",
               "es": "Activar el Modo Dispositivo"
@@ -416,7 +416,7 @@
               "en": "Once 'Device Mode' is active, the screen should look like this:",
               "es": "Una vez que el 'Modo Dispositivo' esté activo, la pantalla debería verse así:"
             },
-            "image": "1stFL.ScreenLeft.PanelON.JPG",
+            "image": "1stFL.ScreenLeft.PanelON.jpg",
             "alt": {
               "en": "Shows the end result of activating Device Mode",
               "es": "Muestra el resultado final de activar el Modo Dispositivo"
@@ -427,7 +427,7 @@
               "en": "Now let's turn our attention to the screens. If TV screens are off, you can turn them on using the power button:",
               "es": "Ahora dirijamos nuestra atención a las pantallas. Si las pantallas de TV están apagadas, puede encenderlas usando el botón de encendido:"
             },
-            "image": "1stFL.ScreenLeft.OnButton.JPG",
+            "image": "1stFL.ScreenLeft.OnButton.jpg",
             "alt": {
               "en": "Shows where to find the TV power button",
               "es": "Muestra dónde encontrar el botón de encendido de la TV"
@@ -438,7 +438,7 @@
               "en": "On the left side TV, let's select the correct TV input. Press the Home button on the TV",
               "es": "En la TV del lado izquierdo, seleccionemos la entrada correcta. Presione el botón de Inicio en la TV"
             },
-            "image": "1stFL.ScreenLeft.InputSelect.JPG",
+            "image": "1stFL.ScreenLeft.InputSelect.jpg",
             "alt": {
               "en": "Shows where to find the TV Home button",
               "es": "Muestra dónde encontrar el botón de Inicio de la TV"
@@ -449,7 +449,7 @@
               "en": "Press the PC option on the screen",
               "es": "Presione la opción PC en la pantalla"
             },
-            "image": "1stFL.ScreenLeft.InputPC.JPG",
+            "image": "1stFL.ScreenLeft.InputPC.jpg",
             "alt": {
               "en": "Shows where to press the PC option on the TV screen",
               "es": "Muestra dónde presionar la opción PC en la pantalla de la TV"
@@ -460,7 +460,7 @@
               "en": "Select the 'HDMI 1' option on the screen",
               "es": "Seleccione la opción 'HDMI 1' en la pantalla"
             },
-            "image": "1stFL.ScreenLeft.InputHDMI.JPG",
+            "image": "1stFL.ScreenLeft.InputHDMI.jpg",
             "alt": {
               "en": "Shows where to press the HDMI 1 option on the TV screen",
               "es": "Muestra dónde presionar la opción HDMI 1 en la pantalla de la TV"
@@ -471,7 +471,7 @@
               "en": "This should then bring up the main computer screen on both TVs. If either window is small, you can maximize the window by pressing 'Maximize' here:",
               "es": "Esto debería mostrar la pantalla principal de la computadora en ambas TVs. Si alguna ventana es pequeña, puede maximizarla presionando 'Maximizar' aquí:"
             },
-            "image": "1stFL.ScreenMaximize.JPG",
+            "image": "1stFL.ScreenMaximize.jpg",
             "alt": {
               "en": "Shows where to maximize the main Windows screen",
               "es": "Muestra dónde maximizar la pantalla principal de Windows"
@@ -482,7 +482,7 @@
               "en": "Now, locate the left side keyboard. It is labeled 'QNS-CLASSROOM1' and looks like this:",
               "es": "Ahora, localice el teclado del lado izquierdo. Está etiquetado como 'QNS-CLASSROOM1' y se ve así:"
             },
-            "image": "1stFL.Keyboard1.JPG",
+            "image": "1stFL.Keyboard1.jpg",
             "alt": {
               "en": "Displays an image of keyboard labeled QNS-CLASSROOM1",
               "es": "Muestra una imagen del teclado etiquetado QNS-CLASSROOM1"
@@ -493,7 +493,7 @@
               "en": "Make sure the keyboard is turned on. The switch on top of the keyboard should be set to the green color",
               "es": "Asegúrese de que el teclado esté encendido. El interruptor en la parte superior del teclado debe estar en verde"
             },
-            "image": "1stFL.KeyboardONSwitch.JPG",
+            "image": "1stFL.KeyboardONSwitch.jpg",
             "alt": {
               "en": "Displays an ON setting for the power switch on the keyboard labeled QNS-CLASSROOM2",
               "es": "Muestra la configuración de ENCENDIDO para el interruptor de encendido en el teclado etiquetado QNS-CLASSROOM2"
@@ -504,7 +504,7 @@
               "en": "Try moving the mouse pad or click on keys on the keyboard. Now click on 'Other User' on the bottom left and sign into your profile!",
               "es": "Intente mover el mouse o presione teclas en el teclado. ¡Ahora haga clic en 'Otro usuario' en la parte inferior izquierda e inicie sesión en su perfil!"
             },
-            "image": "1stFL.ScreenLeft.Login.JPG",
+            "image": "1stFL.ScreenLeft.Login.jpg",
             "alt": {
               "en": "Pic displaying the 'Other Users' log in screen on the Main TV",
               "es": "Imagen que muestra la pantalla de inicio de sesión de 'Otros usuarios' en la TV principal"
