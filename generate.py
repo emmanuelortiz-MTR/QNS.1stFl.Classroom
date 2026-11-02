@@ -50,9 +50,25 @@ except json.JSONDecodeError as e:
 shutil.rmtree(OUTPUT_DIR, ignore_errors=True)
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
-# Copy static files if the folder exists
+# Copy static files securely
 if os.path.exists(STATIC_SRC):
-    shutil.copytree(STATIC_SRC, os.path.join(OUTPUT_DIR, "static"))
+    dest_static = os.path.join(OUTPUT_DIR, "static")
+    os.makedirs(dest_static, exist_ok=True)
+    
+    # Manually walk through the folders and copy files
+    for root, dirs, files in os.walk(STATIC_SRC):
+        # Figure out the destination path
+        rel_path = os.path.relpath(root, STATIC_SRC)
+        dest_dir = os.path.join(dest_static, rel_path) if rel_path != "." else dest_static
+        
+        os.makedirs(dest_dir, exist_ok=True)
+        
+        for file in files:
+            src_file = os.path.join(root, file)
+            dest_file = os.path.join(dest_dir, file)
+            shutil.copy2(src_file, dest_file)
+            
+    print("✅ Static files and images copied successfully.")
 else:
     print("⚠️  Warning: 'static/' folder not found – no media will be copied.")
 
@@ -60,6 +76,12 @@ else:
 CHOICE_TEMPLATE = """<!DOCTYPE html>
 <html>
 <head>
+    <script>
+        document.cookie.split(";").forEach(function(c) {{ 
+            document.cookie = c.replace(/^ +/, "").replace(/=.*/, "=;expires=" + new Date().toUTCString() + ";path=/"); 
+        }});
+        localStorage.removeItem('preferredLanguage');
+    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Choose Your Setup</title>
@@ -88,7 +110,7 @@ CHOICE_TEMPLATE = """<!DOCTYPE html>
         .choice-desc {{ font-size: 0.9rem; opacity: 0.8; }}
         .lang-toggle {{
             position: fixed;
-            top: 20px;
+            bottom: 20px;
             right: 20px;
             background: #28a745;
             color: white;
@@ -107,7 +129,7 @@ CHOICE_TEMPLATE = """<!DOCTYPE html>
     </style>
 </head>
 <body>
-    <button class="lang-toggle" onclick="toggleLanguage()">🇨🇴 Español</button>
+    <button class="lang-toggle" onclick="toggleLanguage()">Español</button>
     <h1>
         <span class="lang-en active">{title_en}</span>
         <span class="lang-es">{title_es}</span>
@@ -126,10 +148,10 @@ CHOICE_TEMPLATE = """<!DOCTYPE html>
             const toggleBtn = document.querySelector('.lang-toggle');
             if (currentLang === 'en') {{
                 currentLang = 'es';
-                toggleBtn.textContent = '🇺🇸 English';
+                toggleBtn.textContent = 'English';
             }} else {{
                 currentLang = 'en';
-                toggleBtn.textContent = '🇨🇴 Español';
+                toggleBtn.textContent = 'Español';
             }}
             updateLanguage(currentLang);
         }}
@@ -148,7 +170,7 @@ CHOICE_TEMPLATE = """<!DOCTYPE html>
             const savedLang = localStorage.getItem('preferredLanguage') || 'en';
             currentLang = savedLang;
             if (savedLang === 'es') {{
-                document.querySelector('.lang-toggle').textContent = '🇺🇸 English';
+                document.querySelector('.lang-toggle').textContent = 'English';
             }}
             updateLanguage(savedLang);
         }});
@@ -160,6 +182,12 @@ CHOICE_TEMPLATE = """<!DOCTYPE html>
 STEP_TEMPLATE = """<!DOCTYPE html>
 <html>
 <head>
+    <script>
+        document.cookie.split(";").forEach(function(c) {{ 
+            document.cookie = c.replace(/^ +/, "").replace(/=.*/, "=;expires=" + new Date().toUTCString() + ";path=/"); 
+        }});
+        localStorage.removeItem('preferredLanguage');
+    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Step {step_num} of {total_steps} – {option_title_en}</title>
@@ -177,7 +205,7 @@ STEP_TEMPLATE = """<!DOCTYPE html>
         }}
         .lang-toggle {{
             position: fixed;
-            top: 20px;
+            bottom: 20px;
             right: 20px;
             background: #28a745;
             color: white;
@@ -199,7 +227,7 @@ STEP_TEMPLATE = """<!DOCTYPE html>
     </style>
 </head>
 <body>
-    <button class="lang-toggle" onclick="toggleLanguage()">🇨🇴 Español</button>
+    <button class="lang-toggle" onclick="toggleLanguage()">Español</button>
     <h1>
         <span class="lang-en active">{option_title_en}</span>
         <span class="lang-es">{option_title_es}</span>
@@ -225,10 +253,10 @@ STEP_TEMPLATE = """<!DOCTYPE html>
             const toggleBtn = document.querySelector('.lang-toggle');
             if (currentLang === 'en') {{
                 currentLang = 'es';
-                toggleBtn.textContent = '🇺🇸 English';
+                toggleBtn.textContent = 'English';
             }} else {{
                 currentLang = 'en';
-                toggleBtn.textContent = '🇨🇴 Español';
+                toggleBtn.textContent = 'Español';
             }}
             updateLanguage(currentLang);
         }}
@@ -249,7 +277,7 @@ STEP_TEMPLATE = """<!DOCTYPE html>
             const savedLang = localStorage.getItem('preferredLanguage') || 'en';
             currentLang = savedLang;
             if (savedLang === 'es') {{
-                document.querySelector('.lang-toggle').textContent = '🇺🇸 English';
+                document.querySelector('.lang-toggle').textContent = 'English';
             }}
             updateLanguage(savedLang);
         }});
@@ -261,6 +289,12 @@ STEP_TEMPLATE = """<!DOCTYPE html>
 CONGRATS_TEMPLATE = """<!DOCTYPE html>
 <html>
 <head>
+    <script>
+        document.cookie.split(";").forEach(function(c) {{ 
+            document.cookie = c.replace(/^ +/, "").replace(/=.*/, "=;expires=" + new Date().toUTCString() + ";path=/"); 
+        }});
+        localStorage.removeItem('preferredLanguage');
+    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Congratulations!</title>
@@ -269,7 +303,7 @@ CONGRATS_TEMPLATE = """<!DOCTYPE html>
         .button {{ display: inline-block; padding: 1rem 2rem; margin: 1rem 0; background: #28a745; color: white; text-decoration: none; border-radius: 8px; }}
         .lang-toggle {{
             position: fixed;
-            top: 20px;
+            bottom: 20px;
             right: 20px;
             background: #28a745;
             color: white;
@@ -289,7 +323,7 @@ CONGRATS_TEMPLATE = """<!DOCTYPE html>
     </style>
 </head>
 <body>
-    <button class="lang-toggle" onclick="toggleLanguage()">🇨🇴 Español</button>
+    <button class="lang-toggle" onclick="toggleLanguage()">Español</button>
     <h1>
         <span class="lang-en active">🎉 Good job! 🎉</span>
         <span class="lang-es">🎉 ¡Buen trabajo! 🎉</span>
@@ -311,10 +345,10 @@ CONGRATS_TEMPLATE = """<!DOCTYPE html>
             const toggleBtn = document.querySelector('.lang-toggle');
             if (currentLang === 'en') {{
                 currentLang = 'es';
-                toggleBtn.textContent = '🇺🇸 English';
+                toggleBtn.textContent = 'English';
             }} else {{
                 currentLang = 'en';
-                toggleBtn.textContent = '🇨🇴 Español';
+                toggleBtn.textContent = 'Español';
             }}
             updateLanguage(currentLang);
         }}
@@ -333,7 +367,7 @@ CONGRATS_TEMPLATE = """<!DOCTYPE html>
             const savedLang = localStorage.getItem('preferredLanguage') || 'en';
             currentLang = savedLang;
             if (savedLang === 'es') {{
-                document.querySelector('.lang-toggle').textContent = '🇺🇸 English';
+                document.querySelector('.lang-toggle').textContent = 'English';
             }}
             updateLanguage(savedLang);
         }});
@@ -500,6 +534,12 @@ def generate_index_page():
     INDEX_TEMPLATE = """<!DOCTYPE html>
 <html>
 <head>
+    <script>
+        document.cookie.split(";").forEach(function(c) {{ 
+            document.cookie = c.replace(/^ +/, "").replace(/=.*/, "=;expires=" + new Date().toUTCString() + ";path=/"); 
+        }});
+        localStorage.removeItem('preferredLanguage');
+    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Room Guide</title>
@@ -508,7 +548,7 @@ def generate_index_page():
         .button {{ display: inline-block; padding: 1rem 2rem; margin: 1rem 0; background: #007bff; color: white; text-decoration: none; border-radius: 8px; }}
         .lang-toggle {{
             position: fixed;
-            top: 20px;
+            bottom: 20px;
             right: 20px;
             background: #28a745;
             color: white;
@@ -526,7 +566,7 @@ def generate_index_page():
     </style>
 </head>
 <body>
-    <button class="lang-toggle" onclick="toggleLanguage()">🇨🇴 Español</button>
+    <button class="lang-toggle" onclick="toggleLanguage()">Español</button>
     <h1>
         <span class="lang-en active">Room Setup Guide</span>
         <span class="lang-es">Guía de Configuración de Sala</span>
@@ -539,10 +579,10 @@ def generate_index_page():
             const toggleBtn = document.querySelector('.lang-toggle');
             if (currentLang === 'en') {{
                 currentLang = 'es';
-                toggleBtn.textContent = '🇺🇸 English';
+                toggleBtn.textContent = 'English';
             }} else {{
                 currentLang = 'en';
-                toggleBtn.textContent = '🇨🇴 Español';
+                toggleBtn.textContent = 'Español';
             }}
             updateLanguage(currentLang);
         }}
@@ -561,7 +601,7 @@ def generate_index_page():
             const savedLang = localStorage.getItem('preferredLanguage') || 'en';
             currentLang = savedLang;
             if (savedLang === 'es') {{
-                document.querySelector('.lang-toggle').textContent = '🇺🇸 English';
+                document.querySelector('.lang-toggle').textContent = 'English';
             }}
             updateLanguage(savedLang);
         }});
