@@ -182,12 +182,6 @@ CHOICE_TEMPLATE = """<!DOCTYPE html>
 STEP_TEMPLATE = """<!DOCTYPE html>
 <html>
 <head>
-    <script>
-        document.cookie.split(";").forEach(function(c) {{ 
-            document.cookie = c.replace(/^ +/, "").replace(/=.*/, "=;expires=" + new Date().toUTCString() + ";path=/"); 
-        }});
-        localStorage.removeItem('preferredLanguage');
-    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Step {step_num} of {total_steps} – {option_title_en}</title>
@@ -295,12 +289,6 @@ STEP_TEMPLATE = """<!DOCTYPE html>
 CONGRATS_TEMPLATE = """<!DOCTYPE html>
 <html>
 <head>
-    <script>
-        document.cookie.split(";").forEach(function(c) {{ 
-            document.cookie = c.replace(/^ +/, "").replace(/=.*/, "=;expires=" + new Date().toUTCString() + ";path=/"); 
-        }});
-        localStorage.removeItem('preferredLanguage');
-    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Congratulations!</title>
