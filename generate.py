@@ -242,10 +242,16 @@ STEP_TEMPLATE = """<!DOCTYPE html>
     <div class="nav">
         {prev_link}
         {next_link}
-        <a href="index.html" class="button">🏠 Home</a>
+        <a href="index.html" class="button">
+            <span class="lang-en active">🏠 Home</span>
+            <span class="lang-es">🏠 Inicio</span>
+        </a>
     </div>
     <br>
-    <a href="choice.html" class="back-link">⬅ {back_text}</a>
+    <a href="choice.html" class="back-link">
+        <span class="lang-en active">⬅ Back to choices</span>
+        <span class="lang-es">⬅ Volver a opciones</span>
+    </a>
     <script>
         let currentLang = 'en';
         
@@ -337,7 +343,10 @@ CONGRATS_TEMPLATE = """<!DOCTYPE html>
         <span class="lang-es">Elegir otra configuración</span>
     </a>
     <br>
-    <a href="index.html" class="back-link">🏠 Home</a>
+    <a href="index.html" class="back-link">
+        <span class="lang-en active">🏠 Home</span>
+        <span class="lang-es">🏠 Inicio</span>
+    </a>
     <script>
         let currentLang = 'en';
         
@@ -475,15 +484,11 @@ def generate_step_pages(option):
             media = generate_media_html(step, 'en')
             
             # Navigation links
-            prev_link = f'<a href="{option["id"]}_{choice_id}_step{i-1}.html" class="button">⬅ Previous</a>' if i > 1 else ""
+            prev_link = f'<a href="{option["id"]}_{choice_id}_step{i-1}.html" class="button"><span class="lang-en active">⬅ Previous</span><span class="lang-es">⬅ Anterior</span></a>' if i > 1 else ""
             if i < total:
-                next_link = f'<a href="{option["id"]}_{choice_id}_step{i+1}.html" class="button">Next ➔</a>'
+                next_link = f'<a href="{option["id"]}_{choice_id}_step{i+1}.html" class="button"><span class="lang-en active">Next ➔</span><span class="lang-es">Siguiente ➔</span></a>'
             else:
-                next_link = f'<a href="{option["id"]}_{choice_id}_congrats.html" class="button">Finish ➔</a>'
-            
-            # Back text
-            back_text_en = "Back to choices"
-            back_text_es = "Volver a opciones"
+                next_link = f'<a href="{option["id"]}_{choice_id}_congrats.html" class="button"><span class="lang-en active">Finish ➔</span><span class="lang-es">Finalizar ➔</span></a>'
             
             filename = f"{option['id']}_{choice_id}_step{i}.html"
             page = STEP_TEMPLATE.format(
@@ -495,8 +500,7 @@ def generate_step_pages(option):
                 instruction_es=instruction_es,
                 media=media,
                 prev_link=prev_link,
-                next_link=next_link,
-                back_text=f'<span class="lang-en active">{back_text_en}</span><span class="lang-es">{back_text_es}</span>'
+                next_link=next_link
             )
             with open(os.path.join(OUTPUT_DIR, filename), "w") as f:
                 f.write(page)
